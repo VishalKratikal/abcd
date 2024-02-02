@@ -1,0 +1,21 @@
+{
+  "name": "something",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "start": "node index.js --exec babel-node --presets @babel/preset-env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.23.9",
+    "@babel/node": "7.23.9",
+    "@babel/preset-env": "7.23.9",
+    "@babel/register": "7.23.7",
+    "express": "4.18.2",
+    "fs": "0.0.1-security",
+    "path": "0.12.7"
+  }
+}
